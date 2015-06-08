@@ -1,6 +1,6 @@
 {
   "name": "loglog-loggly",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Loggly transport for loglog",
   "main": "index.js",
   "directories": {
