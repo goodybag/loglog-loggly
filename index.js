@@ -15,7 +15,6 @@ module.exports = function( options ){
   var client = loggly.createClient( options );
 
   return function( entry ){
-    loggly.createClient( options );
-    client.log( entry, entry.parents.concat( entry.copmonent || [] ) );
+    client.log( entry, entry.parents.concat( entry.component || [] ) );
   };
 }
